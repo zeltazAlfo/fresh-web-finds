@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5ff; /* Couleur de fond douce */
+}
+
+header {
+    background: #4a90e2; /* Couleur d'en-tête agréable */
+    color: #ffffff;
+    padding: 30px 20px; /* Espacement augmenté pour plus de confort */
+    text-align: center;
+    border-bottom-left-radius: 30px; /* Coins arrondis */
+    border-bottom-right-radius: 30px; /* Coins arrondis */
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article-item {
+    background: #ffffff; /* Fond blanc pour les articles */
+    padding: 20px; /* Espacement augmenté pour le confort */
+    border: 1px solid #cccccc; /* Bordure légère */
+    border-radius: 15px; /* Coins arrondis pour un aspect plus doux */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre pour donner de la profondeur */
+    transition: transform 0.3s;
+    text-align: center;
+    text-align: justify;
+    margin: 1%;
+}
+
+.article-item:hover {
+    transform: translateY(-3px); /* Léger effet de survol */
+}
+
+.article-item h2 {
+    margin: 0 0 10px;
+}
+
+.article-item a {
+    text-decoration: none;
+    color: #4a90e2; /* Couleur de lien agréable */
+    font-weight: bold; /* Mettre en avant le lien */
+}
+
+.article-item a:hover {
+    color: #e8491d; /* Couleur de lien au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #4a90e2; /* Couleur d'en-tête en bas */
+    color: #ffffff;
+    border-top-left-radius: 30px; /* Coins arrondis */
+    border-top-right-radius: 30px; /* Coins arrondis */
+    position: relative; /* Changé en relatif pour un meilleur comportement du pied de page */
+}

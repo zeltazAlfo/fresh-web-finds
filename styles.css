@@ -65,6 +65,20 @@ main {
     color: #e8491d; /* Couleur de lien au survol */
 }
 
+#next_page_link{
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
     text-align: center;
     padding: 15px 0;
